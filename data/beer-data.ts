@@ -95,3 +95,21 @@ export const beers = [{
         photoUrl: '/beer/x_HR6g2c_FI.jpg'
     },
 ]
+
+export const category = [{
+    category: 'laptop',
+    subcategory: ['Lenovo', 'Acer', 'Mac']
+},
+    {
+        category: 'PC',
+        subcategory: ['Intel', 'Radeon', 'Mac']
+    },
+    {
+        category: 'Phone',
+        subcategory: ['a', 'b', 'c']
+    },
+    {
+        category: 'Печки',
+        subcategory: ['Вфы', 'ФЫ', 'ФЧЧ']
+    }
+]

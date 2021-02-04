@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import BorderLinearProgress from '@material-ui/core/LinearProgress';
 import Grid from '@material-ui/core/Grid';
-import { beers } from '../beer-data';
+import { beers } from '../data/beer-data';
 
 const useStyles = makeStyles(() => ({
     root: {
@@ -19,7 +19,6 @@ export default function Home() {
         setIsShown(true);
         setHoverData(data);
     }
-
     return (
         <div>
             <Head>
